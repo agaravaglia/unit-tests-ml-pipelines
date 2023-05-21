@@ -10,12 +10,23 @@ The repo contains the development notebook where the pipeline was originally des
 This repo is meant to be an example for data scientists who might not be expert in testing and want to see concrete examples of how implement simple unit-tests for ther projects.
 
 # Table of contents
-1. [Sources](#sources)
-2. [Scope](#scope)
-3. [Development notebook](#development-notebook)
-4. [Productionized pipeline](#productionized-pipeline)
-5. [Unit tests](#unit-tests)
-6. [Makefile](#makefile)
+- [Setup](#setup)
+- [Sources](#sources)
+- [Scope](#scope)
+- [Development notebook](#development-notebook)
+- [Productionized pipeline](#productionized-pipeline)
+- [Unit tests](#unit-tests)
+- [Makefile](#makefile)
+
+## Setup
+To install the needed requirements, you can either use pip
+```
+pip install -r requirements.txt
+```
+Otherwise you can launch the setup.py of the custom package of the repo, always via pip
+```
+pip install -e .
+```
 
 ## Sources
 The dataset used is taken from Kaggle: https://www.kaggle.com/datasets/rounakbanik/pokemon. You can download it by authenticating in Kaggle and launch the jupyter notebook in notebook/create_datasets_from_kaggle.ipynb.
