@@ -19,6 +19,10 @@ This repo is meant to be an example for data scientists who might not be expert 
 - [Makefile](#makefile)
 
 ## Setup
+It is recommend to execute the current repo in a virtual environment. We recommend Python 38. For example with conda
+```
+conda create -n new-env python=3.8
+```
 To install the needed requirements, you can either use pip
 ```
 pip install -r requirements.txt
