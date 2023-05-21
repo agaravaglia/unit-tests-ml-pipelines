@@ -1,0 +1,9 @@
+# Ingore local build
+unit_tests_ml.egg-info
+.eggs
+.envrc
+
+# Ignore all pycaches
+__pycache__
+.pytest_cache
+
