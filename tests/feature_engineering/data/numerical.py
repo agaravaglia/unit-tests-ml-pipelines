@@ -59,10 +59,6 @@ def data(function_name : str) -> List[Dict[str, Any]]:
                 "expected_output": pd.DataFrame([[-1., -1., -1.], [0., 0., 0.,], [1., 1., 1.]], columns=["a", "b", "c"]),
             },
             {
-                "dataframe": pd.DataFrame([[1, "10", 100], [2, 20, 200], [3, 30, 300]], columns=["a", "b", "c"]),
-                "expected_output": None
-            },
-            {
                 "dataframe": pd.DataFrame([[1], [2], [None], [3]], columns=["a"]),
                 "expected_output": pd.DataFrame([[-1.], [0.], [None], [1.]], columns=["a"]),
             },

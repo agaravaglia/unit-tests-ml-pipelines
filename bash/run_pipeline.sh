@@ -1,3 +1,5 @@
+!#bin/bash
+
 step="$1"
 
 if [ "$step" == "" ]

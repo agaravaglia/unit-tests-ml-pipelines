@@ -6,10 +6,11 @@ setup(
     version='0.1.0',
     packages=find_packages(include=['src', 'src.*']),
     install_requires=[
-        'pandas==2.0.1',
+        'pandas==1.5.0',
         'numpy==1.24.3',
         "hyperopt==0.2.7",
         "scikit-learn==1.2.0",
+        #pyspark==3.2.0
     ],
     extras_require={
         'interactive': [

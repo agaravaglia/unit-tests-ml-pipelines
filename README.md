@@ -17,6 +17,7 @@ This repo is meant to be an example for data scientists who might not be expert 
 - [Productionized pipeline](#productionized-pipeline)
 - [Unit tests](#unit-tests)
 - [Makefile](#makefile)
+- [Spark](#spark)
 
 ## Setup
 It is recommend to execute the current repo in a virtual environment. We recommend Python 38. For example with conda
@@ -90,3 +91,8 @@ A similar command works for pytest:
     make pytest path=tests/preprocess
 ```
 will execute the tests in the preprocess folder. If you do not specify any path, all tests will be executed.
+
+## Spark
+There is an additional test present in the repo as an example of a spark fixture. The test is under tests/extra. By default the test is not executed. If you want to run it, you need to:
+- Uncomment the __pyspark==3.2.0__ dependency in the setup.py file
+- Change the name from __tests/extra/_test_spark.py__ to __tests/extra/test_spark.py__
